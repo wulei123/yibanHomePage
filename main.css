@@ -1,0 +1,151 @@
+html,body,nav,ul,img,figcaption,figure{
+    padding: 0;
+    margin:0;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+body{
+    background: gainsboro;
+
+}
+nav,li,a{
+    transition: all 0.3s;
+}
+nav{
+    z-index: 3;
+    position: fixed;
+    width:100%;
+    height:80px;
+    background: deepskyblue;
+
+}
+ul{
+    height:100%;
+    width:100%;
+}
+nav li{
+    float: left;
+    list-style-type:none;
+    height:50px;
+    padding-top: 30px;
+    padding-left:30px ;
+    padding-right:30px ;
+
+}
+.logo{
+
+}
+.li-scroll{
+    background: white;
+}
+.li-scroll a{
+    color: black;
+}
+nav li:hover{
+    background: white;
+}
+nav li:hover a{
+    color: black;
+}
+nav li a{
+
+    color: white;
+    font-family:"微软雅黑 Light";
+    text-decoration: none;
+    display:block ;
+}
+section{
+    height:100%;
+    width:100%;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.show{
+    width:1260px;
+    display: block;
+    position: absolute;
+    bottom:0px;
+    height:600px;
+
+
+
+}
+section div div .show figure{
+    overflow: hidden;
+    transition: all 0.3s;
+    float: left;
+    height: 500px;
+    width:400px;
+    background: white;
+    position: relative;
+    border-radius: 5px;
+    margin:10px;
+}
+section div div .show figure:hover{
+    box-shadow: 2px 2px 40px gray;
+
+}
+section div div .show figure img{
+    border-radius: 5px;
+    margin:0;
+    height:500px;
+    width:400px;
+    background:white;
+}
+section div{
+    height:100%;
+    width:100%;
+}
+section div div{
+
+    width:1260px;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+section div div .show figure figcaption{
+    margin:0;
+    padding:0;
+    height:100px;
+    width:1260px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    text-align: center;
+    position: absolute;
+    top:-60px;
+    left:0px;
+    font-family:"微软雅黑 Light";
+
+}
+section div div .show figure:hover figcaption{
+
+opacity: 0.8;
+    top:0px;
+    background: deepskyblue;
+}
+section div div .show figure figcaption h1{
+    margin:30px;
+    padding:0;
+}
+
+.s2{
+    background: red;
+}
+.s3{
+    background: blue;
+}
+.s4{
+    background:black;
+}
+.s5{
+    background:yellow;
+}
+
